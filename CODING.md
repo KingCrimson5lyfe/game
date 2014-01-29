@@ -25,10 +25,27 @@ A few things to remember:
 * Meet with team to decide what you are doing today
 * Get cracking!
 
-Our task is probably the most complicated of all, though its not nearly as hard as you might think.  Here's a few things to consider as you hack away at that poor, poor starter kit.
+#### Code Documentation
+_Document your code_!  This is _very_ important.  A few things to note:
+
+ Use comments to describe code that might be confusing.  _Please_ don't comment things that are self-explanatory.
+```python
+# Describes the answer to life, the universe, and everything
+def 42():
+    ....
+```
+ Document your functions and classed with documentation comments!
+```python
+def my_func():
+    """
+    Allows the user to calculate the velocity of an unladen sparrow, be it European or African.
+    """
+
+    ...
+```
 
 ### Initial Tasks
-A few things need to be done first and foremost, before anything else.
+Our task is probably the most complicated of all, though its not nearly as hard as you might think.  Here's a few things to consider as you hack away at that poor, poor starter kit.
 * Scrolling backgrounds
 * Implementing sprites, moving characters
 * Collision detection
