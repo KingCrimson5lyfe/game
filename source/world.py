@@ -3,19 +3,6 @@ import sys
 from sprite import Sprite
 from sound import Sound, Music
 
-# Note on the paralax: Its kind of hacky right now, that will be improved later,
-# of course.  Notice how each scrolling layer has two sprites, this is simply
-# because we don't want 1280px wide gaps between each rotation.
-#
-# Currently, there is a bug where after so many rotations, some of the slower
-# layers get "lost", and don't repeat.  This will also be fixed.
-#
-# If this hurts your mind, try to visualize it.  Its pretty simple in concept.
-# When the picture reaches the point where it is off screen, another takes its
-# place, and the original is moved after that one.  Like stitching a quilt.
-#
-# -joshbeitler
-
 class BackgroundLayer:
     """
     Encapsulates a scrolling layer of the background.  It will move left
