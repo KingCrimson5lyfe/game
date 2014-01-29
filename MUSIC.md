@@ -16,3 +16,5 @@ Anyone who slacks off or isn't working will be put into another group or they wi
 ALSO, if you'd like to have your music put into the game, PLEASE put it onto github under the resources folder and commit the file.
 
 Remember: I WILL be listening to every song you e-mail/ put onto the resources folder. So do your best, and have fun with your musical talents.
+
+> Note from Josh: All music _must_ be uploaded to GitHub in the `resources/` folder! We will also be compiling the final music into an album and putting it on Soundcloud.  Enjoy!
