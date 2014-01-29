@@ -11,6 +11,7 @@ from source.update import update
 from source.draw import draw
 from source.sprite import Sprite
 from source.sound import Sound, Music
+from source.world import World
 
 def init():
     """
@@ -20,6 +21,10 @@ def init():
 
     # Don't touch this unless you want to break everything
     game.main_font   = pygame.font.Font("resources/main_font.ttf", 18)
+
+    # Set up the game world.  There should only be one of these
+    game.world       = World()
+    game.world.load()
 
     # Example:
     # game.my_sprite = Sprite("filename.png", (50, 50))

@@ -15,4 +15,6 @@ def update(keys):
     # my_sprite.rect.x -= 1
     # my_sprite.rect.y -= 1
 
+    game.world.update()
+
     return
