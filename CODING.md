@@ -15,7 +15,8 @@
 </tr>
 </table>
 
-[Open issues](https://github.com/alveyworld-dev/game/issues?state=open) | [Starter kit](https://github.com/alveyworld-dev/starterkit)
+[Open issues](https://github.com/alveyworld-dev/game/issues?state=open) | [Starter kit docs](https://github.com/alveyworld-dev/starterkit) | [Milestones]
+(https://github.com/alveyworld-dev/game/issues/milestones)
 
 Being on the coding team is not something to slack off about! Most of us work at home and school, and while we don't expect all to be that dedicated, if you don't do your work, you will become a grade-A tester, tied to a post, and beaten with a fish.
 
