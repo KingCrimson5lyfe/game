@@ -26,6 +26,9 @@ def init():
     game.world       = World()
     game.world.load()
 
+    game.alvey = Sprite("art_team/alveysprite.png", (125, 500))
+    game.alvey.jump = Sound("jump.wav")
+
     # Example:
     # game.my_sprite = Sprite("filename.png", (50, 50))
     

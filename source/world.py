@@ -50,7 +50,8 @@ class World:
         # that anything less than around 5ish causes it to appear uniform - this
         # is because of all the division to reduce speeds. I find around 10 is
         # a good starting point.
-        self.scroll_factor = 9
+
+        self.gravity = 15
         pass
 
     def load(self):

@@ -18,5 +18,6 @@ def draw():
     # graphics.draw_text("Hello World", (255, 255, 255), (50, 50))
 
     game.world.draw()
+    game.alvey.draw()
 
     return
