@@ -60,11 +60,17 @@ class World:
 
         # The order here matters! Back to front.
         self.layers = [
-            BackgroundLayer("world/test_bg_3.png", (0, 0), 2.5),
+            # Dark mountains
+            BackgroundLayer("world/test_bg_3.png", (0, 0), 1.5),
+
+            # Clouds
             BackgroundLayer("world/test_bg_2.png", (0, 0), 5.5),
+
+            # Light mountains
             BackgroundLayer("world/test_bg_1.png", (0, 0), 3)
         ]
 
+        # Ground
         self.ground = Sprite("world/test_bg_4.png", (0, 0))
 
     def update(self):    
