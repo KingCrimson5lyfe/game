@@ -9,7 +9,7 @@ def draw():
     """
 
     # Draw background
-    game.screen.fill((17, 72, 111))
+    game.screen.fill((7, 43, 89))
     
     # Drawing a sprite called my_sprite
     # my_sprite.draw()
