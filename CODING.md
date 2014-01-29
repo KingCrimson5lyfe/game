@@ -63,3 +63,11 @@ These things aren't _that_ important, though they would be fun to tackle once we
 * Day/night cycle
 * Prettyful animations
 * Parallax backgrounds
+
+## FAQ
+* Q: What's with the `__init__.py` files?
+  * A: Ignore them.  They are simply so that Python can find files in that folder.
+* Q: I can't understand _whoever's_ code! 
+  * A: Confront them about it, or fix it yourself!
+* Q: Josh is so mean!  He makes me work!
+  * A: Rome wasn't built by paying the workers wages.
