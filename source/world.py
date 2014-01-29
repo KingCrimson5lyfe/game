@@ -40,13 +40,8 @@ class World:
     """
 
     def __init__(self):
-        # This constant represents the speed at which the world moves.  I find
-        # that anything less than around 5ish causes it to appear uniform - this
-        # is because of all the division to reduce speeds. I find around 10 is
-        # a good starting point.
-
+        # World gravity constant
         self.gravity = 15
-        pass
 
     def load(self):
         """
