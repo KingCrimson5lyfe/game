@@ -28,7 +28,7 @@ A few things to remember:
 Our task is probably the most complicated of all, though its not nearly as hard as you might think.  Here's a few things to consider as you hack away at that poor, poor starter kit.
 
 ### Initial Tasks
-A few things need to be done first and moremost, before anything else.
+A few things need to be done first and foremost, before anything else.
 * Scrolling backgrounds
 * Implementing sprites, moving characters
 * Collision detection
