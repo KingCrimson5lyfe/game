@@ -3,7 +3,7 @@ import sys
 from sprite import Sprite
 from sound import Sound, Music
 
-# Note on the parralax: Its kind of hacky right now, that will be improved later,
+# Note on the paralax: Its kind of hacky right now, that will be improved later,
 # of course.  Notice how each scrolling layer has two sprites, this is simply
 # because we don't want 1280px wide gaps between each rotation.
 #
@@ -17,6 +17,13 @@ from sound import Sound, Music
 # -joshbeitler
 
 class BackgroundLayer:
+    """
+    Encapsulates a scrolling layer of the background.  It will move left
+    at a given speed, and loop once it exits the screen.  Multiple layers
+    with multiple speeds can be used to create a parallax effect, or to
+    allow many-layered backgrounds
+    """
+    
     def __init__(self, filename, pos, scroll_speed):
         self.s1 = Sprite(filename, pos)
         self.s2 = Sprite(filename, (1280, pos[1]))
