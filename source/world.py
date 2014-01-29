@@ -23,10 +23,18 @@ class World:
     """
 
     def __init__(self):
+        # This constant represents the speed at which the world moves.  I find
+        # that anything less than around 5ish causes it to appear uniform - this
+        # is because of all the division to reduce speeds. I find around 10 is
+        # a good starting point.
         self.scroll_factor = 9
         pass
 
     def load(self):
+        """
+        Load the required resources to display the world
+        """
+
         self.bg1 = Sprite("world/test_bg_1.png", (0, 0))
         self.bg2 = Sprite("world/test_bg_1.png", (1280, 0))
         
@@ -38,7 +46,11 @@ class World:
 
         self.ground1 = Sprite("world/test_bg_4.png", (0, 0))
 
-    def update(self):     
+    def update(self):    
+        """
+        Update critical world information, such as background position, etc.
+        """
+
         # Background layer 1 (light mountains)
         self.bg1.rect.x -= (self.scroll_factor / 3)
         self.bg2.rect.x -= (self.scroll_factor / 3)
@@ -73,13 +85,21 @@ class World:
             self.bg6.rect.x = 1280
 
     def draw(self):
+        """
+        Draw the world and everything in it
+        """
+
+        # Background layer 3
         self.bg5.draw()
         self.bg6.draw()
 
+        # Background layer 1
         self.bg1.draw()
         self.bg2.draw()
         
+        # Background layer 2
         self.bg3.draw()
         self.bg4.draw()
 
+        # Ground
         self.ground1.draw()
