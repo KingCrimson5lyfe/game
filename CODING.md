@@ -34,7 +34,7 @@ _Document your code_!  This is _very_ important.  A few things to note:
 def 42():
     ....
 ```
- Document your functions and classed with documentation comments!
+ Document your functions and classes with documentation comments!
 ```python
 def my_func():
     """
